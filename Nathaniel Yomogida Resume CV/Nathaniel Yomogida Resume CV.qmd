@@ -1,0 +1,123 @@
+---
+title: "Nathaniel Yomogida's CV"
+author:
+  firstname: Nathaniel
+  lastname: Yomogida
+  address: "Carmel Mountain, San Diego, CA"
+  position: "Student Physical Therapist"
+  contacts:
+    - icon: fa envelope
+      text: nate.yomogida@gmail.com
+      url: "mailto:nate.yomogida@gmail.com"
+    - icon: assets/img/phone-solid.svg
+      text: (714) 625-5883
+      url: callto:7146255883
+    - icon: assets/icon/bi-house-fill.svg
+      text: example.com
+      url: https://example.com
+    - icon: fa brands github
+      text: GitHub
+      url: https://github.com/nateyomo
+    - icon: fa brands linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/in/nate-yomogida-0198a227a/
+    - icon: fa brands x-twitter
+      text: Twitter
+      url: https://x.com/NateYomogida
+    - icon: fa brands researchgate
+      text: ResearchGate
+      url: https://www.researchgate.net/profile/Nathaniel-Yomogida
+format: awesomecv-typst
+style:
+  color-accent: 516db0
+---
+
+
+## Education
+
+```{=typst}
+#resume-entry(
+  title: "Doctor of Physical Therapy",
+  location: "San Diego, California",
+  date: "2022 - 2025",
+  description: "San Diego State University",
+)
+
+#resume-entry(
+  title: "B.S. in Kinesiology - Exercise Science",
+  location: "Long Beach, California",
+  date: "2018 - 2022",
+  description: "California State University Long Beach",
+)
+#resume-item[
+  - President's Honor List
+  - Summa cum laude
+]
+```
+
+## Research Experience
+
+```{=typst}
+#resume-entry(
+  title: "Impact of Neurocognitive performance on sport performance
+and injury risk in Female Collegiate Athletes",
+  location: "Doctoral Thesis",
+  date: "Sept 2022 - May 2025",
+  description: "San Diego State University"
+)
+#resume-item[
+  - Qualitative data collection
+  - Qualtrics design and organization
+]
+```
+
+## Work Experience
+
+```{=typst}
+#resume-entry(
+  title: "Student Physical Therapist",
+  location: "Miramar, CA",
+  date: "July 2023 - Aug 2023",
+  description: "All Star Physical Therapy"
+)
+
+#resume-entry(
+  title: "PT Tech",
+  location: "Seal Beach, CA",
+  date: "Sept 2021 - May 2022",
+  description: "Seal Beach Physical Therapy"
+)
+
+#resume-entry(
+  title: "House Painter",
+  location: "San Clemente, CA",
+  date: "2019 - 2021",
+  description: "Kent Yomogida Paint Co."
+)
+```
+
+
+## Skills
+
+```{=typst}
+#resume-entry(
+  title: "Programming Languages",
+  description: "R"
+)
+#resume-entry(
+  title: "Markup Languages",
+  description: "Quarto & LaTeX"
+)
+```
+
+## Interests
+
+```{=typst}
+#resume-entry(
+  title: "Yomogida-Kerstein Lab",
+  location: "Yomogida-Kerstein Lab",
+  date: "Dec 2023 - Present",
+  description: "A series of literature reviews and journal clubs I have written."
+)
+
+```
