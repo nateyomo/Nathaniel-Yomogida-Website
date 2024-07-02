@@ -13,8 +13,8 @@
 
 // Default style
 #let color-accent-default = rgb("#dc3522")
-#let font-header-default = ("Roboto", "Arial", "Helvetica", "Dejavu Sans")
-#let font-text-default = ("Source Sans Pro", "Arial", "Helvetica", "Dejavu Sans")
+#let font-header-default = ("Helvetica", "Roboto", "Arial", "Dejavu Sans")
+#let font-text-default = ("Helvetica", "Source Sans Pro", "Arial", "Dejavu Sans")
 #let align-header-default = center
 
 // User defined style
@@ -397,12 +397,13 @@ $endif$
       below: 1em,
     )
     #set text(
-      size: 16pt,
-      weight: "regular",
+      size: 12pt,
+      weight: "bold",
+      fill: color-darkgray, // Set the default text color here
     )
     
     #align(left)[
-      #text[#strong[#text(color-accent)[#it.body.text.slice(0, 3)]#text(color-darkgray)[#it.body.text.slice(3)]]]
+      #text[#it.body.text]
       #box(width: 1fr, line(length: 100%))
     ]
   ]

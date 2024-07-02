@@ -4,7 +4,7 @@ author:
   firstname: Nathaniel
   lastname: Yomogida
   address: "Carmel Mountain, San Diego, CA"
-  position: "Student Physical Therapist"
+  position: "Student Physical Therapist, Research Assistant"
   contacts:
     - icon: fa envelope
       text: nate.yomogida@gmail.com
@@ -12,17 +12,14 @@ author:
     - icon: assets/img/phone-solid.svg
       text: (714) 625-5883
       url: callto:7146255883
-    - icon: assets/icon/bi-house-fill.svg
-      text: example.com
-      url: https://example.com
-    - icon: fa brands github
-      text: GitHub
-      url: https://github.com/nateyomo
+ #   - icon: assets/icon/bi-house-fill.svg
+  #    text: Portfolio
+   #   url: https://example.com
     - icon: fa brands linkedin
       text: LinkedIn
       url: https://www.linkedin.com/in/nate-yomogida-0198a227a/
     - icon: fa brands x-twitter
-      text: Twitter
+      text: "NateYomogida"
       url: https://x.com/NateYomogida
     - icon: fa brands researchgate
       text: ResearchGate
@@ -33,7 +30,7 @@ style:
 ---
 
 
-## Education
+# Education
 
 ```{=typst}
 #resume-entry(
@@ -55,34 +52,34 @@ style:
 ]
 ```
 
-## Research Experience
+# Research Experience
 
 ```{=typst}
 #resume-entry(
-  title: "Impact of Neurocognitive performance on sport performance
-and injury risk in Female Collegiate Athletes",
-  location: "Doctoral Thesis",
+  title: "Impact of Neurocognitive performance on sport performance and injury risk in Female Collegiate Athletes",
   date: "Sept 2022 - May 2025",
   description: "San Diego State University"
 )
 #resume-item[
-  - Qualitative data collection
-  - Qualtrics design and organization
+  - Qualitative data collection and Qualtrics design and organization
 ]
 ```
 
-## Work Experience
+# Clinical Experience
 
 ```{=typst}
 #resume-entry(
   title: "Student Physical Therapist",
   location: "Miramar, CA",
-  date: "July 2023 - Aug 2023",
-  description: "All Star Physical Therapy"
+  date: "6 Week Rotation",
+  description: "All Star Physical Therapy (OP Orthopedic)"
 )
+#resume-item[
+  - EMR: Cliniciant/InsightGO
+]
 
 #resume-entry(
-  title: "PT Tech",
+  title: "PT Aide",
   location: "Seal Beach, CA",
   date: "Sept 2021 - May 2022",
   description: "Seal Beach Physical Therapy"
@@ -97,7 +94,7 @@ and injury risk in Female Collegiate Athletes",
 ```
 
 
-## Skills
+# Skills
 
 ```{=typst}
 #resume-entry(
@@ -110,7 +107,7 @@ and injury risk in Female Collegiate Athletes",
 )
 ```
 
-## Interests
+# Interests
 
 ```{=typst}
 #resume-entry(
